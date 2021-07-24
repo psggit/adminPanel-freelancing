@@ -42,7 +42,6 @@ function App() {
           {isLoggedIn && (
             <Header currentRoute={currentRoute} history={history} />
           )}
-          <div>{currentRoute}</div>
           {!isLoggedIn && (
             <Route
               exact
